@@ -13,7 +13,9 @@ use SplFileObject;
 final class WavDetector implements AudioDetectorInterface
 {
     /**
-     * WAV.
+     * Detect WAVE PCM soundfile format.
+     *
+     * http://soundfile.sapp.org/doc/WaveFormat/
      *
      * @param SplFileObject $file The audio file
      *
@@ -21,8 +23,16 @@ final class WavDetector implements AudioDetectorInterface
      */
     public function detect(SplFileObject $file): ?AudioType
     {
-        $bytes = (string)$file->fread(3);
+        $chunkId = (string)$file->fread(4);
 
-        return $bytes === 'WAV' ? new AudioType(AudioFormat::WAV, AudioMimeType::AUDIO_WAV) : null;
+        // Ignore the chunk size
+        $file->fread(4);
+
+        $format = (string)$file->fread(4);
+
+        return $chunkId === 'RIFF' && $format === 'WAVE' ? new AudioType(
+            AudioFormat::WAV,
+            AudioMimeType::AUDIO_WAV
+        ) : null;
     }
 }
