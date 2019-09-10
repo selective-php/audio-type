@@ -18,6 +18,7 @@ Audio format detection library for PHP.
 
 ### Supported formats
 
+* **MP3**
 * **WAV** (WAVE PCM soundfile format)
 
 ## Requirements

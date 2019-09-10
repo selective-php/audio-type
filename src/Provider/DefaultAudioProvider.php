@@ -2,6 +2,7 @@
 
 namespace Selective\AudioType\Provider;
 
+use Selective\AudioType\Detector\Mp3Detector;
 use Selective\AudioType\Detector\WavDetector;
 
 /**
@@ -15,6 +16,7 @@ class DefaultAudioProvider implements ProviderInterface
     public function getDetectors(): array
     {
         return [
+            new Mp3Detector(),
             new WavDetector(),
         ];
     }
