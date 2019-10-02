@@ -11,4 +11,5 @@ final class AudioFormat
     public const WAV = 'wav';
     public const FLAC = 'flac';
     public const OGA = 'oga';
+    public const MIDI = 'midi';
 }

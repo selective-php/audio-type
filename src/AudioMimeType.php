@@ -11,4 +11,5 @@ final class AudioMimeType
     public const AUDIO_WAV = 'audio/wav';
     public const AUDIO_FLAC = 'audio/flac';
     public const AUDIO_OGG = 'audio/ogg';
+    public const AUDIO_MIDI = 'audio/midi';
 }

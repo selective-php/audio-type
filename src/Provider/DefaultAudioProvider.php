@@ -2,6 +2,7 @@
 
 namespace Selective\AudioType\Provider;
 
+use Selective\AudioType\Detector\MidiDetector;
 use Selective\AudioType\Detector\Mp3Detector;
 use Selective\AudioType\Detector\WavDetector;
 use Selective\AudioType\Detector\FlacDetector;
@@ -22,6 +23,7 @@ class DefaultAudioProvider implements ProviderInterface
             new WavDetector(),
             new FlacDetector(),
             new OgaDetector(),
+            new MidiDetector(),
         ];
     }
 }
