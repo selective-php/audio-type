@@ -24,8 +24,9 @@ final class AiffDetector implements AudioDetectorInterface
         $ckID = (string)$file->fread(4);
 
         //ckID is always 'FORM' for AIFF. If this is not the case, return null and do not check further.
-        if($ckID != 'FORM')
+        if ($ckID != 'FORM') {
             return null;
+        }
 
         // Ignore the chunk size
         $file->fread(4);
