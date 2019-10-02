@@ -18,8 +18,11 @@ Audio format detection library for PHP.
 
 ### Supported formats
 
-* **MP3**
+* **MP3** (MPEG-1 Audio Layer III)
 * **WAV** (WAVE PCM soundfile format)
+* **MIDI** (Musical Instrument Digital Interface)
+* **FLAC** (Free Lossless Audio Codec)
+* **OGA** (OGG Vorbis sound format)
 
 ## Requirements
 
