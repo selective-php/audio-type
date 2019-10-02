@@ -68,6 +68,7 @@ class AudioTypeDetectorTest extends TestCase
             'FLAC' => [__DIR__ . '/files/test.flac', AudioFormat::FLAC, AudioMimeType::AUDIO_FLAC],
             'OGG' => [__DIR__ . '/files/test.oga', AudioFormat::OGA, AudioMimeType::AUDIO_OGG],
             'MIDI' => [__DIR__ . '/files/test.midi', AudioFormat::MIDI, AudioMimeType::AUDIO_MIDI],
+            'AIFF' => [__DIR__ . '/files/test.aiff', AudioFormat::AIFF, AudioMimeType::AUDIO_AIFF],
         ];
     }
 

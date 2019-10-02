@@ -23,6 +23,7 @@ Audio format detection library for PHP.
 * **MIDI** (Musical Instrument Digital Interface)
 * **FLAC** (Free Lossless Audio Codec)
 * **OGA** (OGG Vorbis sound format)
+* **AIFF** (Audio Interchange File Format)
 
 ## Requirements
 
