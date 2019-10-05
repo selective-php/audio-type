@@ -13,4 +13,5 @@ final class AudioFormat
     public const OGA = 'oga';
     public const MIDI = 'midi';
     public const AIFF = 'aiff';
+    public const MKA = 'mka';
 }
