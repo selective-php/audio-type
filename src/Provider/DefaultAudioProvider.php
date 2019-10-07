@@ -5,6 +5,7 @@ namespace Selective\AudioType\Provider;
 use Selective\AudioType\Detector\AiffDetector;
 use Selective\AudioType\Detector\MidiDetector;
 use Selective\AudioType\Detector\Mp3Detector;
+use Selective\AudioType\Detector\RealAudioDetector;
 use Selective\AudioType\Detector\WavDetector;
 use Selective\AudioType\Detector\FlacDetector;
 use Selective\AudioType\Detector\OgaDetector;
@@ -28,6 +29,7 @@ class DefaultAudioProvider implements ProviderInterface
             new MidiDetector(),
             new AiffDetector(),
             new MkaDetector(),
+            new RealAudioDetector(),
         ];
     }
 }

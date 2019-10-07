@@ -70,6 +70,7 @@ class AudioTypeDetectorTest extends TestCase
             'MIDI' => [__DIR__ . '/files/test.midi', AudioFormat::MIDI, AudioMimeType::AUDIO_MIDI],
             'AIFF' => [__DIR__ . '/files/test.aif', AudioFormat::AIFF, AudioMimeType::AUDIO_AIFF],
             'MKA' => [__DIR__ . '/files/test.mka', AudioFormat::MKA, AudioMimeType::AUDIO_MKA],
+            'RA' => [__DIR__ . 'files/test.ra', AudioFormat::RA, AudioMimeType::AUDIO_RA]
         ];
     }
 
