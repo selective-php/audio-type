@@ -14,4 +14,5 @@ final class AudioFormat
     public const MIDI = 'midi';
     public const AIFF = 'aiff';
     public const MKA = 'mka';
+    public const WEBM = 'webm';
 }

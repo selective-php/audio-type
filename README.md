@@ -24,6 +24,7 @@ Audio format detection library for PHP.
 * **FLAC** (Free Lossless Audio Codec)
 * **OGA** (OGG Vorbis sound format)
 * **MKA** (Audio-only Matroska container)
+* **WEBM** (Audio only)
 
 ## Requirements
 
