@@ -9,6 +9,7 @@ use Selective\AudioType\Detector\WavDetector;
 use Selective\AudioType\Detector\FlacDetector;
 use Selective\AudioType\Detector\OgaDetector;
 use Selective\AudioType\Detector\MkaDetector;
+use Selective\AudioType\Detector\WebmDetector;
 
 /**
  * All supported audio formats.
@@ -28,6 +29,7 @@ class DefaultAudioProvider implements ProviderInterface
             new MidiDetector(),
             new AiffDetector(),
             new MkaDetector(),
+            new WebmDetector(),
         ];
     }
 }

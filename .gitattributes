@@ -31,3 +31,9 @@
 *.mp3 binary
 *.midi binary
 *.oga binary
+*.webm binary
+*.wma binary
+*.aif binary
+*.flac binary
+*.midi binary
+*.mka binary
