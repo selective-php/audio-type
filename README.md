@@ -26,6 +26,7 @@ Audio format detection library for PHP.
 * **MKA** (Audio-only Matroska container)
 * **WEBM** (Audio only)
 * **RealAudio** (It contains only audio)
+* **AIFF** (Audio Interchange File Format)
 
 ## Requirements
 
