@@ -25,6 +25,7 @@ Audio format detection library for PHP.
 * **OGA** (OGG Vorbis sound format)
 * **MKA** (Audio-only Matroska container)
 * **WEBM** (Audio only)
+* **RealAudio** (It contains only audio)
 
 ## Requirements
 
