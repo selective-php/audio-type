@@ -10,6 +10,7 @@ use Selective\AudioType\Detector\FlacDetector;
 use Selective\AudioType\Detector\OgaDetector;
 use Selective\AudioType\Detector\MkaDetector;
 use Selective\AudioType\Detector\WebmDetector;
+use Selective\AudioType\Detector\RealAudioDetector;
 
 /**
  * All supported audio formats.
@@ -30,6 +31,7 @@ class DefaultAudioProvider implements ProviderInterface
             new AiffDetector(),
             new MkaDetector(),
             new WebmDetector(),
+            new RealAudioDetector(),
         ];
     }
 }
