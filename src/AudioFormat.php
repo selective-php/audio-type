@@ -15,4 +15,5 @@ final class AudioFormat
     public const AIFF = 'aiff';
     public const MKA = 'mka';
     public const WEBM = 'webm';
+    public const RA = 'ra';
 }

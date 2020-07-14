@@ -37,3 +37,4 @@
 *.flac binary
 *.midi binary
 *.mka binary
+*.ra binary

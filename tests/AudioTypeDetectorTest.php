@@ -71,6 +71,7 @@ class AudioTypeDetectorTest extends TestCase
             'AIFF' => [__DIR__ . '/files/test.aif', AudioFormat::AIFF, AudioMimeType::AUDIO_AIFF],
             'MKA' => [__DIR__ . '/files/test.mka', AudioFormat::MKA, AudioMimeType::AUDIO_MKA],
             'WEBM' => [__DIR__ . '/files/test.webm', AudioFormat::WEBM, AudioMimeType::AUDIO_WEBM],
+            'RA' => [__DIR__ . '/files/test.ra', AudioFormat::RA, AudioMimeType::AUDIO_RA],
         ];
     }
 
