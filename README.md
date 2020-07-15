@@ -27,6 +27,7 @@ Audio format detection library for PHP.
 * **WEBM** (Audio only)
 * **RealAudio** (It contains only audio)
 * **AIFF** (Audio Interchange File Format)
+* **CAF** (Apple Core Audio File)
 
 ## Requirements
 
