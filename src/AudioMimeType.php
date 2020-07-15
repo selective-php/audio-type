@@ -16,4 +16,5 @@ final class AudioMimeType
     public const AUDIO_MKA = 'audio/x-matroska';
     public const AUDIO_WEBM = 'audio/webm';
     public const AUDIO_RA = 'audio/x-pn-realaudio';
+    public const AUDIO_CAF = 'audio/x-caf';
 }

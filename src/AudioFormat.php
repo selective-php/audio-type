@@ -16,4 +16,5 @@ final class AudioFormat
     public const MKA = 'mka';
     public const WEBM = 'webm';
     public const RA = 'ra';
+    public const CAF = 'caf';
 }
