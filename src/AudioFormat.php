@@ -20,4 +20,5 @@ final class AudioFormat
     public const AAC = 'aac';
     public const WMA = 'wma';
     public const AU = 'au';
+    public const RMI = 'rmi';
 }
