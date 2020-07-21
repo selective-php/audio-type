@@ -30,6 +30,7 @@ Audio format detection library for PHP.
 * **CAF** (Apple Core Audio File)
 * **AAC** (Advanced Audio Coding)
 * **WMA** (Windows Media Audio)
+* **RMI** (RIFF-MIDI Audio)
 
 ## Requirements
 
