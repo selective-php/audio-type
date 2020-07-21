@@ -41,3 +41,4 @@
 *.caf binary
 *.aac binary
 *.wma binary
+*.au binary

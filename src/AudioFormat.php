@@ -19,4 +19,5 @@ final class AudioFormat
     public const CAF = 'caf';
     public const AAC = 'aac';
     public const WMA = 'wma';
+    public const AU = 'au';
 }

@@ -19,4 +19,5 @@ final class AudioMimeType
     public const AUDIO_CAF = 'audio/x-caf';
     public const AUDIO_AAC = 'audio/aac';
     public const AUDIO_WMA = 'audio/x-ms-wma';
+    public const AUDIO_AU = 'audio/basic';
 }
