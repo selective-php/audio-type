@@ -25,7 +25,7 @@ final class AacDetector implements AudioDetectorInterface
         $file->fread(8);
 
         // ISO Base Media File Format, the brand "M4A " is used.
-        $brand = $file->fread(4);
+        $brand = (string)$file->fread(4);
 
         return $brand === 'M4A ' ? new AudioType(
             AudioFormat::AAC,
