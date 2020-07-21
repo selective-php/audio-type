@@ -17,4 +17,5 @@ final class AudioFormat
     public const WEBM = 'webm';
     public const RA = 'ra';
     public const CAF = 'caf';
+    public const AAC = 'aac';
 }
