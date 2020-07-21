@@ -13,6 +13,7 @@ use Selective\AudioType\Detector\WebmDetector;
 use Selective\AudioType\Detector\RealAudioDetector;
 use Selective\AudioType\Detector\CafDetector;
 use Selective\AudioType\Detector\AacDetector;
+use Selective\AudioType\Detector\WmaDetector;
 
 /**
  * All supported audio formats.
@@ -36,6 +37,7 @@ class DefaultAudioProvider implements ProviderInterface
             new RealAudioDetector(),
             new CafDetector(),
             new AacDetector(),
+            new WmaDetector(),
         ];
     }
 }
