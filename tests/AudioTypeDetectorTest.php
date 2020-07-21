@@ -76,6 +76,7 @@ class AudioTypeDetectorTest extends TestCase
             'AAC' => [__DIR__ . '/files/test.aac', AudioFormat::AAC, AudioMimeType::AUDIO_AAC],
             'WMA' => [__DIR__ . '/files/test.wma', AudioFormat::WMA, AudioMimeType::AUDIO_WMA],
             'AU' => [__DIR__ . '/files/test.au', AudioFormat::AU, AudioMimeType::AUDIO_AU],
+            'RMI' => [__DIR__ . '/files/test.rmi', AudioFormat::RMI, AudioMimeType::AUDIO_RMI],
         ];
     }
 
