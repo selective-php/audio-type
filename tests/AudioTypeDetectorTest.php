@@ -73,6 +73,7 @@ class AudioTypeDetectorTest extends TestCase
             'WEBM' => [__DIR__ . '/files/test.webm', AudioFormat::WEBM, AudioMimeType::AUDIO_WEBM],
             'RA' => [__DIR__ . '/files/test.ra', AudioFormat::RA, AudioMimeType::AUDIO_RA],
             'CAF' => [__DIR__ . '/files/test.caf', AudioFormat::CAF, AudioMimeType::AUDIO_CAF],
+            'AAC' => [__DIR__ . '/files/test.aac', AudioFormat::AAC, AudioMimeType::AUDIO_AAC],
         ];
     }
 
