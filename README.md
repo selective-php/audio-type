@@ -31,6 +31,7 @@ Audio format detection library for PHP.
 * **AAC** (Advanced Audio Coding)
 * **WMA** (Windows Media Audio)
 * **RMI** (RIFF-MIDI Audio)
+* **AU** (AU Audio)
 
 ## Requirements
 
