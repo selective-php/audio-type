@@ -35,7 +35,7 @@ Audio format detection library for PHP.
 
 ## Requirements
 
-* PHP 7.1+
+* PHP 7.2+
 
 ## Installation
 
