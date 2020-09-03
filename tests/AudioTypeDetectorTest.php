@@ -69,6 +69,14 @@ class AudioTypeDetectorTest extends TestCase
             'OGG' => [__DIR__ . '/files/test.oga', AudioFormat::OGA, AudioMimeType::AUDIO_OGG],
             'MIDI' => [__DIR__ . '/files/test.midi', AudioFormat::MIDI, AudioMimeType::AUDIO_MIDI],
             'AIFF' => [__DIR__ . '/files/test.aif', AudioFormat::AIFF, AudioMimeType::AUDIO_AIFF],
+            'MKA' => [__DIR__ . '/files/test.mka', AudioFormat::MKA, AudioMimeType::AUDIO_MKA],
+            'WEBM' => [__DIR__ . '/files/test.webm', AudioFormat::WEBM, AudioMimeType::AUDIO_WEBM],
+            'RA' => [__DIR__ . '/files/test.ra', AudioFormat::RA, AudioMimeType::AUDIO_RA],
+            'CAF' => [__DIR__ . '/files/test.caf', AudioFormat::CAF, AudioMimeType::AUDIO_CAF],
+            'AAC' => [__DIR__ . '/files/test.aac', AudioFormat::AAC, AudioMimeType::AUDIO_AAC],
+            'WMA' => [__DIR__ . '/files/test.wma', AudioFormat::WMA, AudioMimeType::AUDIO_WMA],
+            'AU' => [__DIR__ . '/files/test.au', AudioFormat::AU, AudioMimeType::AUDIO_AU],
+            'RMI' => [__DIR__ . '/files/test.rmi', AudioFormat::RMI, AudioMimeType::AUDIO_RMI],
         ];
     }
 

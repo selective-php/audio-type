@@ -13,4 +13,12 @@ final class AudioFormat
     public const OGA = 'oga';
     public const MIDI = 'midi';
     public const AIFF = 'aiff';
+    public const MKA = 'mka';
+    public const WEBM = 'webm';
+    public const RA = 'ra';
+    public const CAF = 'caf';
+    public const AAC = 'aac';
+    public const WMA = 'wma';
+    public const AU = 'au';
+    public const RMI = 'rmi';
 }
