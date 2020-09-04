@@ -49,18 +49,18 @@ composer require selective/audio-type
 
 ```php
 use Selective\AudioType\AudioTypeDetector;
-use Selective\AudioType\Provider\DefaultAudioVideoProvider;
-use SplFileObject;
+use Selective\AudioType\Provider\DefaultAudioProvider;
+use \SplFileObject;
 
 $file = new SplFileObject('example.mp3');
 
 $detector = new AudioTypeDetector();
 
-// Add video detectors
-$detector->addProvider(new DefaultVideoProvider());
+// Add audio detectors
+$detector->addProvider(new DefaultAudioProvider());
 $audioType = $detector->getAudioTypeFromFile($file);
 
-// Get the video format
+// Get the audio format
 echo $audioType->getFormat(); // mp3
 
 // Get the mime type
@@ -70,6 +70,10 @@ echo $audioType->getMimeType(); // audio/mp3
 ### Detect the audio type of in-memory object
 
 ```php
+use Selective\AudioType\AudioTypeDetector;
+use Selective\AudioType\Provider\DefaultAudioProvider;
+use \SplTempFileObject;
+
 $audio = new SplTempFileObject();
 
 $audio->fwrite('my file content');
@@ -79,7 +83,7 @@ $detector = new AudioTypeDetector();
 // Add audio detectors
 $detector->addProvider(new DefaultAudioProvider());
 
-echo $detector->getAudioTypeFromFile($file)->getFormat();
+echo $detector->getAudioTypeFromFile($audio)->getFormat();
 ```
 
 ## License
