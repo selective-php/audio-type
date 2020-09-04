@@ -50,7 +50,7 @@ composer require selective/audio-type
 ```php
 use Selective\AudioType\AudioTypeDetector;
 use Selective\AudioType\Provider\DefaultAudioProvider;
-use \SplFileObject;
+use SplFileObject;
 
 $file = new SplFileObject('example.mp3');
 
@@ -72,7 +72,7 @@ echo $audioType->getMimeType(); // audio/mp3
 ```php
 use Selective\AudioType\AudioTypeDetector;
 use Selective\AudioType\Provider\DefaultAudioProvider;
-use \SplTempFileObject;
+use SplTempFileObject;
 
 $audio = new SplTempFileObject();
 
