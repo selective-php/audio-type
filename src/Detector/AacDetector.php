@@ -3,8 +3,8 @@
 namespace Selective\AudioType\Detector;
 
 use Selective\AudioType\AudioFormat;
-use Selective\AudioType\AudioType;
 use Selective\AudioType\AudioMimeType;
+use Selective\AudioType\AudioType;
 use SplFileObject;
 
 /**

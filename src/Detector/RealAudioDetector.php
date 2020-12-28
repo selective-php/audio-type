@@ -13,7 +13,7 @@ use SplFileObject;
 final class RealAudioDetector implements AudioDetectorInterface
 {
     /**
-     * Detects RealAudio
+     * Detects RealAudio.
      *
      * @param SplFileObject $file The file
      *

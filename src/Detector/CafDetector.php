@@ -13,7 +13,7 @@ use SplFileObject;
 final class CafDetector implements AudioDetectorInterface
 {
     /**
-     * Detects CAF (Apple Core Audio File)
+     * Detects CAF (Apple Core Audio File).
      *
      * @param SplFileObject $file The file
      *

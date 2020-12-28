@@ -3,8 +3,8 @@
 namespace Selective\AudioType\Detector;
 
 use Selective\AudioType\AudioFormat;
-use Selective\AudioType\AudioType;
 use Selective\AudioType\AudioMimeType;
+use Selective\AudioType\AudioType;
 use SplFileObject;
 
 /**
@@ -13,7 +13,7 @@ use SplFileObject;
 final class AuDetector implements AudioDetectorInterface
 {
     /**
-     * Detect AU audio file
+     * Detect AU audio file.
      *
      * @param SplFileObject $file The audio file
      *

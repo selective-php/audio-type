@@ -4,10 +4,10 @@ namespace Selective\AudioType\Test;
 
 use PHPUnit\Framework\TestCase;
 use Selective\AudioType\AudioFormat;
+use Selective\AudioType\AudioMimeType;
 use Selective\AudioType\AudioType;
 use Selective\AudioType\AudioTypeDetector;
 use Selective\AudioType\Exception\AudioTypeDetectorException;
-use Selective\AudioType\AudioMimeType;
 use Selective\AudioType\Provider\DefaultAudioProvider;
 use SplFileObject;
 use SplTempFileObject;
