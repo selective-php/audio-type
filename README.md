@@ -2,12 +2,12 @@
 
 Audio format detection library for PHP.
 
-[![Latest Version on Packagist](https://img.shields.io/github/release/selective-php/audio-type.svg?style=flat-square)](https://packagist.org/packages/selective/audio-type)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Latest Version on Packagist](https://img.shields.io/github/release/selective-php/audio-type.svg)](https://packagist.org/packages/selective/audio-type)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 [![build](https://github.com/selective-php/audio-type/workflows/build/badge.svg)](https://github.com/selective-php/audio-type/actions)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/selective-php/audio-type.svg?style=flat-square)](https://scrutinizer-ci.com/g/selective-php/audio-type/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/quality/g/selective-php/audio-type.svg?style=flat-square)](https://scrutinizer-ci.com/g/selective-php/audio-type/?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/selective/audio-type.svg?style=flat-square)](https://packagist.org/packages/selective/audio-type/stats)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/selective-php/audio-type.svg)](https://scrutinizer-ci.com/g/selective-php/audio-type/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/quality/g/selective-php/audio-type.svg)](https://scrutinizer-ci.com/g/selective-php/audio-type/?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/selective/audio-type.svg)](https://packagist.org/packages/selective/audio-type/stats)
 
 
 ## Features
@@ -35,7 +35,7 @@ Audio format detection library for PHP.
 
 ## Requirements
 
-* PHP 7.2+
+* PHP 7.3+ or 8.0+
 
 ## Installation
 
