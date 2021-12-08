@@ -58,7 +58,7 @@ class AudioTypeDetectorTest extends TestCase
     /**
      * Provider.
      *
-     * @return array[] The test data
+     * @return array<string, array<string>> The test data
      */
     public function providerGetAudioTypeFromFile(): array
     {
