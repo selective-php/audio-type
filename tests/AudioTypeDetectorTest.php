@@ -15,7 +15,7 @@ use SplTempFileObject;
 /**
  * Test.
  */
-class AudioTypeDetectorTest extends TestCase
+final class AudioTypeDetectorTest extends TestCase
 {
     /**
      * Create instance.
@@ -60,7 +60,7 @@ class AudioTypeDetectorTest extends TestCase
      *
      * @return array<string, array<string>> The test data
      */
-    public function providerGetAudioTypeFromFile(): array
+    public static function providerGetAudioTypeFromFile(): array
     {
         return [
             'WAV' => [__DIR__ . '/files/test.wav', AudioFormat::WAV, AudioMimeType::AUDIO_WAV],

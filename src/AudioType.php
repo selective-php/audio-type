@@ -68,7 +68,7 @@ final class AudioType
      */
     public function equals(AudioType $other): bool
     {
-        return $this->format === $other->format &&
-            $this->mime === $other->mime;
+        return $this->format === $other->format
+            && $this->mime === $other->mime;
     }
 }
