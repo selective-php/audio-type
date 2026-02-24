@@ -24,7 +24,7 @@ final class FlacDetector implements AudioDetectorInterface
         // Signature bytes
         $signature = (string)$file->fread(4);
 
-        return 'fLaC' === $signature ? new AudioType(
+        return $signature === 'fLaC' ? new AudioType(
             AudioFormat::FLAC,
             AudioMimeType::AUDIO_FLAC
         ) : null;

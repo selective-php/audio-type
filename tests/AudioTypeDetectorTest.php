@@ -2,6 +2,7 @@
 
 namespace Selective\AudioType\Test;
 
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 use Selective\AudioType\AudioFormat;
 use Selective\AudioType\AudioMimeType;
@@ -34,14 +35,13 @@ final class AudioTypeDetectorTest extends TestCase
     /**
      * Test.
      *
-     * @dataProvider providerGetAudioTypeFromFile
-     *
      * @param string $file The file
      * @param string $format The expected format
      * @param string $mime The expected mime type
      *
      * @return void
      */
+    #[DataProvider('providerGetAudioTypeFromFile')]
     public function testGetAudioTypeFromFile(string $file, string $format, string $mime): void
     {
         $this->assertFileExists($file);
